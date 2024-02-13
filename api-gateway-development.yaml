@@ -21,7 +21,7 @@ spring:
         lowerCaseServiceId: true
 zuul:
   routes:
-    agency-service:
+    starship-sevice:
       path: /starship-service/**
       serviceId: starship-service
   okhttp:
