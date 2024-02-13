@@ -22,7 +22,7 @@ spring:
 zuul:
   routes:
     agency-service:
-      path: /diman/**
+      path: /starship-service/**
       serviceId: starship-service
   okhttp:
     enabled: true
