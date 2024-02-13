@@ -1,6 +1,6 @@
 spring:
   application:
-    name: starship-service
+    name: starship-service2
 server:
   port: 36795
 eureka:
