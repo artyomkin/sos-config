@@ -22,12 +22,8 @@ spring:
 zuul:
   routes:
     agency-service:
-      path: /starship-service/**
+      path: /diman/**
       serviceId: starship-service
-    test:
-      path: /test/**
-      serviceId: test
-      url: http://google.com
   okhttp:
     enabled: true
   ignoredServices: '*'
