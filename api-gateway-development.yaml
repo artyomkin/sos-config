@@ -24,6 +24,10 @@ zuul:
     agency-service:
       path: /starship-service/**
       serviceId: starship-service
+    test:
+      path: /test/**
+      serviceId: test
+      url: http://google.com
   okhttp:
     enabled: true
   ignoredServices: '*'
