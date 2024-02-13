@@ -19,13 +19,13 @@ spring:
       locator:
         enabled: true
         lowerCaseServiceId: true
-zuul:
-  routes:
-    starship-service:
-      path: /starship-service/**
-      serviceId: starship-service
-  okhttp:
-    enabled: true
+#zuul:
+#  routes:
+#    starship-service:
+#      path: /starship-service/**
+#      serviceId: starship-service
+#  okhttp:
+#    enabled: true
 
 ribbon:
   eureka:
